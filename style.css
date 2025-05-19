@@ -96,6 +96,24 @@ color: white;
     color: white;
 }
 
+/* selected answer */
+.selected {
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s ease;
+
+}
+
+/* card after the submission */
+#card-finished {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 @media (max-width: 576px) {
     .card {
         background-color: beige;
